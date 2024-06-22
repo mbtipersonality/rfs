@@ -6,7 +6,7 @@ function App() {
   const handleClick = () => {
     const randSearch = search[Math.floor(Math.random() * 2997 )]
 
-    window.location = `https://www.google.com/search?q=site%3Aredditfavorites.com%2Fservices+${randSearch}&sca_esv=fdd505efaadfc2c0&sca_upv=1&ei=O69MZpWYHfzjseMP6ca0yAw&ved=0ahUKEwjVodXm-Z6GAxX8cWwGHWkjDckQ4dUDCBA&uact=5&oq=site%3Aredditfavorites.com%2Fservices+a&gs_lp=Egxnd3Mtd2l6LXNlcnAiI3NpdGU6cmVkZGl0ZmF2b3JpdGVzLmNvbS9zZXJ2aWNlcyBhSM4JUK0IWK0IcAR4AJABAJgBAKABAKoBALgBA8gBAPgBAZgCAKACAJgDAIgGAZIHAKAHAA&sclient=gws-wiz-serp`
+    window.location = `https://www.google.com/search?q=site%3Aredditfavorites.com+${randSearch}&sca_esv=bedc8d185beb6f7e&sca_upv=1&ei=yO52ZrulLu2WseMP55OG8As&ved=0ahUKEwi7qbuoxO-GAxVtS2wGHeeJAb4Q4dUDCBA&uact=5&oq=site%3Aredditfavorites.com+a&gs_lp=Egxnd3Mtd2l6LXNlcnAiGnNpdGU6cmVkZGl0ZmF2b3JpdGVzLmNvbSBhSKAIUMEHWMEHcAJ4AJABAZgB1gGgAdYBqgEDMi0xuAEDyAEA-AEBmAIAoAIAmAMAiAYBkgcAoAct&sclient=gws-wiz-serp`
   }
   return (
     <div className='App' onClick={handleClick}>
